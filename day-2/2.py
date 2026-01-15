@@ -11,9 +11,9 @@ else:
 import re
 
 text = "The quick brown fox"
-pattern = r"quick"
+pattern22 = r"quick"
 
-match = re.match(pattern, text)
+match = re.match(pattern22, text)
 if match:
     print("Match found:", match.group())
 else:
